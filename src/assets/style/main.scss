@@ -1,0 +1,51 @@
+@import "UI/fonts";
+@import "UI/grid";
+
+$Inter: "Inter";
+$Poppins: "Poppins";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+    &::before, &::after {
+        font-family: 'Font Awesome';
+    }
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+h3 {
+    margin-top: 140px;
+    height: 100vh;
+}
+
+@import "@/components/Header/Header.scss",
+        "@/components/HeaderContent/HeaderContent.scss",
+        "@/components/Advantage/Advantage.scss",
+        "@/components/СallToAction/СallToAction.scss",
+        "@/components/Footer/Footer.scss";

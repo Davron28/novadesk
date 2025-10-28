@@ -1,0 +1,167 @@
+.main {
+    margin-top: 140px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @include media($md) {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+
+    &-left {
+        max-width: 608px;
+        width: 100%;
+
+        @include media($xl) {
+            max-width: 500px;
+        }
+
+        @include media($md) {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    &-right {
+        max-width: 552px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        @include media($xl) {
+            max-width: 450px;
+        }
+
+        @include media($md) {
+            max-width: 100%;
+        }
+
+        .triangle {
+            position: absolute;
+            z-index: 100;
+            width: 40px;
+            height: 40px;
+            background: #B00000;
+            @include media($xl) {
+                display: none;
+            }
+            @include media($md) {
+                display: block;
+            }
+
+            &:nth-child(2) {
+                clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+                top: 63px;
+                right: 0;
+                @include media($md) {
+                    right: 3%;
+                }
+                @include media($xs) {
+                    width: 25px;
+                    height: 25px;
+                    right: 1%;
+                }
+            }
+            &:nth-child(3) {
+                clip-path: polygon(0 0, 0% 100%, 100% 100%);
+                left: 0;
+                bottom: 150px;
+                @include media($md) {
+                    left: 3%;
+                }
+                @include media($xs) {
+                    width: 25px;
+                    height: 25px;
+                    left: 1%;
+                }
+            }
+            &:nth-child(4) {
+                clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+                bottom: 41px;
+                right: 0;
+                width: 72px;
+                height: 72px;
+                @include media($md) {
+                    right: 3%;
+                }
+                @include media($xs) {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    &-img {
+        max-width: 501px;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+
+        @include media($md) {
+            max-width: 90%;
+        }
+    }
+
+    &-title {
+        font-size: 55px;
+        font-family: $Poppins;
+        font-weight: 700;
+        line-height: 77.5px;
+        color: #2E2E2E;
+
+        @include media($sm) {
+            font-size: 45px;
+            line-height: 60px;
+        }
+
+        @include media($xs) {
+            font-size: 35px;
+            line-height: 50px;
+        }
+    }
+
+    &-text {
+        color: #808080;
+        font-family: $Inter;
+        font-weight: 400;
+        margin: 30px 0 60px 0;
+        letter-spacing: 0.8px;
+
+        @include media($sm) {
+            margin: 25px 0;
+        }
+    }
+
+    &-btn {
+        font-size: 14px;
+        font-family: $Poppins;
+        font-weight: 400;
+        color: #000000;
+        line-height: 24px;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid black;
+        transition: 300ms;
+
+        &:hover {
+            background: #B00000;
+            border-color: transparent;
+            box-shadow: 0px 0px 64px 0px #B000004D;
+            color: white;
+        }
+    }
+}

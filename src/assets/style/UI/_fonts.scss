@@ -1,0 +1,41 @@
+$Inter: ("Regular", 400),
+        ("Medium", 500),
+        ("SemiBold", 600),
+        ("Bold", 700),
+        ("ExtraBold", 800);
+        
+@each $name, $weight in $Inter {
+    @font-face {
+        font-family: "Inter";
+        src: url(@/assets/fonts/Inter/Inter-#{$name}.ttf);
+        font-weight: $weight;
+    }
+}
+
+$Poppins: ("Light", 300),
+          ("Regular", 400),
+          ("Medium", 500),
+          ("SemiBold", 600),
+          ("Bold", 700);
+          
+@each $name, $weight in $Poppins {
+    @font-face {
+        font-family: "Poppins";
+        src: url(@/assets/fonts/Poppins/Poppins-#{$name}.ttf);
+        font-weight: $weight;
+    }
+}
+
+$FontAwesome: ('brands-400', 400),
+              ('duotone-900', 900),
+              ('light-300', 300),
+              ('regular-400', 401),
+              ('solid-900', 901);
+
+@each $name, $weight in $FontAwesome {
+    @font-face {
+        font-family: 'Font Awesome';
+        src: url(../fonts/FontAwesome/fa-#{$name}.ttf);
+        font-weight: $weight;
+    }
+}

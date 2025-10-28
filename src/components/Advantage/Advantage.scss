@@ -1,0 +1,38 @@
+.advantage {
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    @include media($md) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include media($xs) {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    &__item {
+        max-width: 260px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include media($xs) {
+            margin: 0 auto;
+        }
+    }
+    &__title {
+       color: black;
+       font-size: 20px;
+       font-family: $Poppins;
+       font-weight: 700;
+       margin: 12px 0 10px 0; 
+    }
+    &__text {
+        font-size: 12px;
+        font-family: $Poppins;
+        font-weight: 300;
+        color: black;
+    }
+}
