@@ -18,9 +18,10 @@
 
 		&-list {
 			display: flex;
+			align-items: center;
 			gap: 35px;
 
-			@include media($sm) {
+			@include media($md) {
 				position: fixed;
 				top: 0;
 				right: -100%;
@@ -39,7 +40,7 @@
 
 		&-link {
 			font-size: 15px;
-			font-family: $Poppins;
+			font-family: $Inter;
 			font-weight: 600;
 			color: black;
 			display: flex;
@@ -52,7 +53,7 @@
 				color: #B00000;
 			}
 
-			@include media($sm) {
+			@include media($md) {
 				&.spanWhite {
 					color: white;
 				}
@@ -89,7 +90,7 @@
 	cursor: pointer;
 	z-index: 1100;
 
-	@include media($sm) {
+	@include media($md) {
 		display: flex;
 	}
 

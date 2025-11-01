@@ -1,0 +1,92 @@
+.flag-dropdown {
+    position: relative;
+    display: inline-block;
+
+    .flag-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        padding: 0.5em 1em;
+        background: #f0f0f0;
+        border: none;
+        border-radius: 0.5em;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        min-width: 160px;
+        span {
+            font-family: $Poppins;
+        }
+
+        &:hover {
+            background: #B00000;
+            color: #fff;
+        }
+
+        img {
+            width: 24px;
+            height: 16px;
+            border-radius: 2px;
+            object-fit: cover;
+        }
+
+        svg {
+            margin-left: auto;
+            stroke: currentColor;
+            transition: transform 0.2s ease;
+        }
+
+        &:hover svg {
+            transform: rotate(180deg);
+        }
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 120%;
+        left: 0;
+        background: #fff;
+        border-radius: 0.5em;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        padding: 0.3em 0;
+        z-index: 100;
+        width: 180px;
+        animation: fadeIn 0.2s ease-in-out;
+
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+            padding: 0.5em 1em;
+            cursor: pointer;
+            transition: background 0.2s;
+            span {
+                font-family: $Poppins;
+            }
+
+            img {
+                width: 24px;
+                height: 16px;
+                border-radius: 2px;
+                object-fit: cover;
+            }
+
+            &:hover {
+                background: #B00000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

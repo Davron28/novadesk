@@ -1,0 +1,36 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "cases": "Cases",
+        "contacts": "Contacts",
+        "title": "Building the bridge between vision and success.",
+        "text": "Novadesk- is a full-service business support company providing international and local solutions for growth, operations, and customer service. We help businesses focus on what they do best — while we handle the rest.",
+        "btn": "More"
+    },
+    "main": {
+        "advantage": {
+            "title-1": "Integrity",
+            "title-2": "Excellence",
+            "title-3": "Collaboration",
+            "title-4": "Innovation",
+            "text-1": "To become the most reliable business support partner connecting global companies with Central Asia and beyond.",
+            "text-2": "We focus on delivering high-quality results in the most effective way. Our streamlined processes and skilled professionals ensure time and cost savings without compromising excellence.",
+            "text-3": "We believe success is built through teamwork and open communication. By working closely with our clients and partners, we create solutions that bring mutual growth and success.",
+            "text-4": "We constantly seek smarter and more creative ways to solve challenges. By embracing new technologies and ideas, we help our clients stay ahead in a fast changing business world."
+        },
+        "callToAction": {
+            "title": "We're here to make your website awesome.",
+            "btn": "Get in touch with us"
+        }
+    },
+    "footer": {
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quibusdam!",
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "cases": "Cases",
+        "contacts": "Contacts"
+    }
+}

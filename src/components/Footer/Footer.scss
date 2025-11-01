@@ -68,7 +68,7 @@
     &__link {
         color: white;
         font-size: 14px;
-        font-family: $Poppins;
+        font-family: $Inter;
         font-weight: 600;
     }
 
@@ -111,19 +111,19 @@
         }
     }
 
-    &__telegram {
+    &__facebook {
         &::after {
-            content: "\f3fe";
+            content: "\f39e";
             font-weight: 400;
             color: white;
             font-size: 35px;
         }
     }
 
-    &__phone {
+    &__linkedin {
         &::after {
-            content: "\f879";
-            font-weight: 901;
+            content: "\f0e1";
+            font-weight: 400;
             color: white;
             font-size: 35px;
             transition: transform 0.3s ease;

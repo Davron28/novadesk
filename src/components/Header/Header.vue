@@ -11,24 +11,30 @@
           <span :class="{spanWhite: spanColor}"></span>
         </button>
         <ul class="header__nav-list" :class="{ open: isMenuOpen }">
-          <li><RouterLink to="/" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">Home</RouterLink></li>
-          <li><RouterLink to="/about" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">About Us</RouterLink></li>
-          <li><RouterLink to="/services" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">Services</RouterLink></li>
-          <li><RouterLink to="/cases" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">Cases</RouterLink></li>
-          <li><RouterLink to="/news" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">News</RouterLink></li>
-          <li><RouterLink to="/contacts" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">Contacts</RouterLink></li>
+          <li><RouterLink to="/" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">{{ $t("header.home") }}</RouterLink></li>
+          <li><RouterLink to="/about" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">{{ $t("header.about") }}</RouterLink></li>
+          <li><RouterLink to="/services" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">{{ $t("header.services") }}</RouterLink></li>
+          <li><RouterLink to="/cases" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">{{ $t("header.cases") }}</RouterLink></li>
+          <li><RouterLink to="/contacts" class="header__nav-link" active-class="active-link" @click="closeMenu" :class="{spanWhite: spanColor}">{{ $t("header.contacts") }}</RouterLink></li>
+          <li>
+            <Language/>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
 </template>
 <script>
+import Language from '@/components/Language/Language.vue';
 export default {
     data() {
         return {
             isMenuOpen: false,
             spanColor: false
         }
+    },
+    components: {
+      Language
     },
     methods: {
     toggleMenu() {
