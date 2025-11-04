@@ -27,7 +27,7 @@
             </div>
             <div class="info-card">
               <h3>Email</h3>
-              <a :href="`mailto:${$t('contacts.email')}`">{{ $t("contacts.email") }}</a>
+              <a href="mailto:hello@yourdomain.uz">hello@yourdomain.uz</a>
             </div>
             <div class="info-card">
               <h3>{{ $t("contacts.hoursTitle") }}</h3>
@@ -50,7 +50,7 @@
                 <input
                   v-model="form.email"
                   type="email"
-                  :placeholder="$t('contacts.form.emailPh')"
+                  placeholder="you@example.com"
                   :class="{ invalid: errors.email }"
                 />
                 <small v-if="errors.email">{{ errors.email }}</small>
@@ -129,7 +129,6 @@ export default {
       this.loading = true;
       this.status = "";
       try {
-        // Пока без бекенда — просто имитация отправки
         await new Promise((r) => setTimeout(r, 1500));
         this.status = "ok";
         this.form = { name: "", email: "", message: "", agree: false };

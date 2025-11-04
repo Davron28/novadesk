@@ -158,14 +158,12 @@
                 "raw": "+998712000000"
             }
         },
-        "email": "hello@yourdomain.uz",
         "hoursTitle": "Режим работы",
         "hours": "Пн–Пт: 09:00–18:00 (UTC+5)",
         "form": {
             "name": "Ваше имя",
             "namePh": "Иван Иванов",
             "email": "Email",
-            "emailPh": "you@example.com",
             "phone": "Телефон (необязательно)",
             "phonePh": "+998 90 123 45 67",
             "message": "Сообщение",
