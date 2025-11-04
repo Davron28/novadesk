@@ -20,6 +20,19 @@
             "text-3": "We believe success is built through teamwork and open communication. By working closely with our clients and partners, we create solutions that bring mutual growth and success.",
             "text-4": "We constantly seek smarter and more creative ways to solve challenges. By embracing new technologies and ideas, we help our clients stay ahead in a fast changing business world."
         },
+        "whyUs": {
+            "mainTitle": "Why Us?",
+            "title1": "Experienced Team",
+            "title2": "Cost Efficiency",
+            "title3": "Multilingual Support",
+            "title4": "Comprehensive Solutions",
+            "title5": "Reliability & Transparency",
+            "text1": "Experienced Team – our specialists have years of expertise in international business support.",
+            "text2": "Cost Efficiency – services from Uzbekistan offer high quality at a competitive price.",
+            "text3": "Multilingual Support – our team communicates fluently in English, Russian, and Uzbek.",
+            "text4": "Comprehensive Solutions – all business services in one place: call center, accounting, marketing, and legal support.",
+            "text5": "Reliability & Transparency – we ensure consistent communication and clear reporting at every stage."
+        },
         "callToAction": {
             "title": "We're here to make your website awesome.",
             "btn": "Get in touch with us"
@@ -32,5 +45,143 @@
         "services": "Services",
         "cases": "Cases",
         "contacts": "Contacts"
+    },
+    "about": {
+        "title": "Our Mission",
+        "text": "We help companies around the world grow their businesses by providing reliable and comprehensive support. Our mission is to connect people, cultures, and opportunities through professionalism, innovation, and trust.",
+        "teamTitle": "Our Team",
+        "teamText": "Young, ambitious, and dedicated professionals who make the impossible possible.",
+        "experienceTitle": "Our Expertise",
+        "experienceText": "We collaborate with dozens of companies worldwide, with extensive experience in BPO, marketing, accounting, legal support, and international communications. From startups to corporations, we deliver results you can trust."
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "We help businesses thrive globally and locally — providing tailored solutions that combine professionalism, innovation, and efficiency.",
+        "internationalTitle": "🌍 International Business Support",
+        "uzbekTitle": "Business Support in Uzbekistan",
+
+        "international": {
+            "1": {
+                "title": "Call Center Operations",
+                "text": "Professional multilingual communication ensuring your clients are heard — wherever they are."
+            },
+            "2": {
+                "title": "Operator Services",
+                "text": "Dedicated and trained specialists to support your business operations seamlessly."
+            },
+            "3": {
+                "title": "Marketing Solutions",
+                "text": "Strategic marketing designed to strengthen your brand identity and reach globally."
+            },
+            "4": {
+                "title": "Accounting Services",
+                "text": "Transparent and accurate accounting to help you make smarter financial decisions."
+            },
+            "5": {
+                "title": "Design Services",
+                "text": "Creative visuals and branding that reflect your company’s values and mission."
+            },
+            "6": {
+                "title": "Back-Office Solutions",
+                "text": "All administrative support in one place — simple, efficient, and reliable."
+            }
+        },
+
+        "uzbek": {
+            "1": {
+                "title": "Company Registration",
+                "text": "We guide you through every step of setting up your business in Uzbekistan — from paperwork to operation."
+            },
+            "2": {
+                "title": "Accounting & Tax Services",
+                "text": "Compliance, accuracy, and optimization — full financial care for your local entity."
+            },
+            "3": {
+                "title": "Legal Services",
+                "text": "Strong legal support that ensures smooth and compliant business activities."
+            },
+            "4": {
+                "title": "Incentives & Benefits Consulting",
+                "text": "Unlock opportunities — IT Park residency, tax incentives, and local advantages."
+            },
+            "5": {
+                "title": "Event Organization",
+                "text": "From conferences to official gatherings — we bring your events to life with precision."
+            },
+            "6": {
+                "title": "Hospitality & Guest Services",
+                "text": "Warm welcomes and professional hospitality for your guests and partners in Uzbekistan."
+            }
+        }
+    },
+    "cases": {
+        "title": "Cases & Testimonials",
+        "subtitle": "Discover how our clients achieved success with our business solutions — real stories, measurable results, and genuine feedback.",
+
+        "list": [{
+                "title": "Expanding to the European Market",
+                "text": "We helped a logistics company establish a call center in Eastern Europe, resulting in a 40% increase in client retention.",
+                "client": "TransGlobal Logistics",
+                "quote": "“Their professionalism and communication were outstanding. We couldn’t have expanded so fast without them.”"
+            },
+            {
+                "title": "IT Park Residency for a Tech Startup",
+                "text": "Our legal and accounting support enabled a local startup to secure IT Park residency, saving up to 25% on taxes.",
+                "client": "NextGen Solutions",
+                "quote": "“Everything was handled smoothly — documents, reports, even communication with local authorities.”"
+            },
+            {
+                "title": "Full Business Setup in Uzbekistan",
+                "text": "We assisted a UAE-based company in registering and launching operations in Tashkent in less than 2 months.",
+                "client": "AlMira Trading",
+                "quote": "“They made the entire process incredibly easy and transparent. Highly recommended!”"
+            }
+        ]
+    },
+    "contacts": {
+        "title": "Contacts",
+        "subtitle": "Reach out to us for consulting, partnerships, or support. We usually reply within one business day.",
+        "office": "Head Office",
+        "address": {
+            "line1": "Tashkent, University Boulevard 15",
+            "line2": "Business Center, 3rd Floor",
+            "mapQuery": "Tashkent University Boulevard 15"
+        },
+        "phonesTitle": "Phone numbers",
+        "phones": {
+            "main": {
+                "view": "+998 (90) 123-45-67",
+                "raw": "+998901234567"
+            },
+            "support": {
+                "view": "+998 (71) 200-00-00",
+                "raw": "+998712000000"
+            }
+        },
+        "email": "hello@yourdomain.uz",
+        "hoursTitle": "Working hours",
+        "hours": "Mon–Fri: 09:00–18:00 (UTC+5)",
+        "form": {
+            "name": "Your name",
+            "namePh": "John Doe",
+            "email": "Email",
+            "emailPh": "you@example.com",
+            "phone": "Phone (optional)",
+            "phonePh": "+998 90 123 45 67",
+            "message": "Message",
+            "messagePh": "Tell us briefly about your request…",
+            "agree": "I agree to the processing of my personal data",
+            "send": "Send message",
+            "sending": "Sending",
+            "success": "Thanks! Your message has been sent.",
+            "error": "Something went wrong. Please try again."
+        },
+        "errors": {
+            "name": "Please enter your name",
+            "email": "Enter a valid email",
+            "message": "Write at least 10 characters",
+            "agree": "You must accept the terms"
+        }
     }
+
 }

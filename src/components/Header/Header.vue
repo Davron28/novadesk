@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="header__nav">
         <router-link to="/" class="header__nav-logo">
-            <img src="@/assets/img/logo.svg" alt=""/>
+            <img src="@/assets/img/header-logo.svg" alt=""/>
         </router-link>
         <button class="burger" :class="{ active: isMenuOpen }" @click="toggleMenu(); spanWhite()">
           <span :class="{spanWhite: spanColor}"></span>

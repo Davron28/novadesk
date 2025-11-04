@@ -39,14 +39,10 @@ img {
     display: block;
 }
 
-h3 {
-    margin-top: 140px;
-    height: 100vh;
-}
-
 @import "@/components/Header/Header.scss",
         "@/components/Language/Language.scss",
         "@/components/HeaderContent/HeaderContent.scss",
         "@/components/Advantage/Advantage.scss",
+        "@/components/WhyUs/WhyUs.scss",
         "@/components/СallToAction/СallToAction.scss",
         "@/components/Footer/Footer.scss";

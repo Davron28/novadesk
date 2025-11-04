@@ -5,7 +5,7 @@
         <RouterLink class="footer__logo" to="/">
           <img src="@/assets/img/footer-logo.svg" alt="" />
         </RouterLink>
-        <a href="tel:+998991234567" class="footer__number">+998(99) 123 45 67</a>
+        <a href="tel:+998874591010" class="footer__number">+998(87) 459 10 10</a>
         <a href="mailto:info@novadesk.net" class="footer__email">info@novadesk.net</a>
         <p class="footer__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quibusdam!</p>
       </div>
