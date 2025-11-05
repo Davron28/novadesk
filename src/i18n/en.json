@@ -49,8 +49,6 @@
     "about": {
         "title": "Our Mission",
         "text": "We help companies around the world grow their businesses by providing reliable and comprehensive support. Our mission is to connect people, cultures, and opportunities through professionalism, innovation, and trust.",
-        "teamTitle": "Our Team",
-        "teamText": "Young, ambitious, and dedicated professionals who make the impossible possible.",
         "experienceTitle": "Our Expertise",
         "experienceText": "We collaborate with dozens of companies worldwide, with extensive experience in BPO, marketing, accounting, legal support, and international communications. From startups to corporations, we deliver results you can trust."
     },
@@ -150,8 +148,8 @@
         "phonesTitle": "Phone numbers",
         "phones": {
             "main": {
-                "view": "+998 (90) 123-45-67",
-                "raw": "+998901234567"
+                "view": "+998 (87) 459-10-10",
+                "raw": "+998(87) 459 10 10"
             },
             "support": {
                 "view": "+998 (71) 200-00-00",

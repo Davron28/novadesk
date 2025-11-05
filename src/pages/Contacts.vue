@@ -27,7 +27,7 @@
             </div>
             <div class="info-card">
               <h3>Email</h3>
-              <a href="mailto:hello@yourdomain.uz">hello@yourdomain.uz</a>
+              <a href="mailto:info@novadesk.net">info@novadesk.net</a>
             </div>
             <div class="info-card">
               <h3>{{ $t("contacts.hoursTitle") }}</h3>

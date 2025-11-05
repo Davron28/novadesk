@@ -14,29 +14,6 @@
             <img src="@/assets/img/mission.jpg" alt="Our Mission" />
           </div>
         </div>
-        <div class="about__block about__team-section" data-aos="fade-up">
-          <h2 class="about__title center">{{ $t("about.teamTitle") }}</h2>
-          <p class="about__subtitle">
-            {{ $t("about.teamText") }}
-          </p>
-          <div class="about__team">
-            <div
-              class="team-card"
-              v-for="(member, index) in team"
-              :key="index"
-              data-aos="zoom-in"
-              data-aos-delay="100 * index"
-            >
-              <div class="team-card__image">
-                <img :src="member.photo" :alt="member.name" />
-              </div>
-              <div class="team-card__info">
-                <h3>{{ member.name }}</h3>
-                <p class="team-card__role">{{ member.role }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="about__block about__expertise" data-aos="fade-up">
           <h2 class="about__title">{{ $t("about.experienceTitle") }}</h2>
           <div class="about__content">
