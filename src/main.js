@@ -7,16 +7,20 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import i18n from "@/i18n/i18n"
 
+routers.afterEach((to) => {
+    document.title = to.meta.title || "Novadesk"
+    AOS.refresh()
+})
 
 const app = createApp(App)
-app.use(routers).use(store).use(i18n).mount('#app')
+
+app.use(routers)
+   .use(store)
+   .use(i18n)
+   .mount('#app')
 
 AOS.init({
     duration: 1200,
     easing: 'ease-out-cubic',
     once: false,
-})
-
-routers.afterEach(() => {
-    AOS.refresh()
 })
